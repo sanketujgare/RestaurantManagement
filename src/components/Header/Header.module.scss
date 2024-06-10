@@ -1,0 +1,13 @@
+.Header {
+  display: flex;
+  padding: 1rem;
+  // justify-content: center;
+  align-items: center;
+  background-color: rgb(242, 244, 244);
+
+  .Heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(37, 195, 239);
+  }
+}

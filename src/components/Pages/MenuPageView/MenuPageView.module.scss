@@ -1,0 +1,16 @@
+.MenuPage {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-height: 100vh;
+  .Cartbtn {
+    display: flex;
+    padding: 0 1rem;
+    justify-content: flex-end;
+  }
+
+  .MenuList {
+    padding: 0.5rem 4rem;
+    overflow-y: auto;
+  }
+}

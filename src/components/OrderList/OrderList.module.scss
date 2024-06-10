@@ -1,0 +1,17 @@
+.OrderContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem 4rem;
+
+  .OrdersList {
+    display: flex;
+    align-items: center;
+
+    .TableNo {
+      background-color: rgb(136, 174, 246);
+      border-radius: 0.5rem;
+      padding: 1rem;
+    }
+  }
+}

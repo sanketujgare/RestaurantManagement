@@ -1,0 +1,18 @@
+.Order {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 0px 0px 4px #ededed;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  .OrderInfo {
+    display: flex;
+    // flex-direction: column;
+    gap: 1rem;
+  }
+  .OrderInfo > * {
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0px 0px 4px #ededed;
+  }
+}

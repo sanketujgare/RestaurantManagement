@@ -1,0 +1,23 @@
+.Modal {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(224, 224, 224, 0.8);
+  .ModalContainer {
+    background-color: rgba(206, 206, 201, 0.8);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    height: 50vh;
+    z-index: 1;
+  }
+}

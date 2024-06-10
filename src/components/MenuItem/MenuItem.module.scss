@@ -1,0 +1,23 @@
+.MenuItem {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  box-shadow: 0px 0px 4px #ededed;
+  .MenuInfo {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  .MenuButton {
+    flex: 1;
+    padding: 0.5rem;
+    // background-color: rgb(244, 244, 109);
+    .Button {
+      padding: 0.5rem 1rem;
+      border: none;
+      background-color: rgb(244, 244, 109);
+    }
+  }
+}
